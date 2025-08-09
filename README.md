@@ -4,7 +4,7 @@ A responsive, modern admin dashboard for managing and analyzing content (e.g., b
 
 ### Live Demo
 
-- Live URL: REPLACE_WITH_YOUR_DEPLOYED_LINK (e.g., `https://content-db.vercel.app`)
+- Live URL: [https://content-db.vercel.app](https://content-db.vercel.app)
 
 If you need help deploying, see the Deployment section below.
 

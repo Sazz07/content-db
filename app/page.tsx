@@ -5,7 +5,11 @@ import { LoginPage } from '@/components/login-page';
 import { Dashboard } from '@/components/dashboard';
 
 export default function Home() {
-  const { isAuthenticated } = useAuth();
+  const { isAuthenticated, isReady } = useAuth();
+
+  if (!isReady) {
+    return null;
+  }
 
   if (!isAuthenticated) {
     return <LoginPage />;

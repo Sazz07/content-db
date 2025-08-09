@@ -123,7 +123,6 @@ export function DashboardHeader() {
                 </DropdownMenuLabel>
                 <DropdownMenuSeparator className='my-2' />
 
-                <DropdownMenuSeparator className='my-2' />
                 <DropdownMenuItem
                   onClick={logout}
                   className='p-3 rounded-lg cursor-pointer hover:bg-red-50 text-red-600 hover:text-red-700 transition-colors'
