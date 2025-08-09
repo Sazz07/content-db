@@ -5,7 +5,7 @@ import { useDashboard } from '@/contexts/dashboard-context';
 import { FileText, Eye, Heart, TrendingUp } from 'lucide-react';
 
 export function DashboardStats() {
-  const { articles, filteredArticles } = useDashboard();
+  const { articles } = useDashboard();
 
   const totalViews = articles.reduce((sum, article) => sum + article.views, 0);
   const totalLikes = articles.reduce((sum, article) => sum + article.likes, 0);

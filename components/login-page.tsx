@@ -40,7 +40,7 @@ export function LoginPage() {
       if (!success) {
         setLoginError('Invalid email or password');
       }
-    } catch (err) {
+    } catch {
       setLoginError('An error occurred during login');
     } finally {
       setIsLoading(false);

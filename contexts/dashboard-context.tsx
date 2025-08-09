@@ -3,7 +3,7 @@
 import { createContext, useContext, useState, useMemo } from 'react';
 import { mockArticles, type Article } from '@/lib/mock-data';
 
-interface DashboardContextType {
+export interface DashboardContextType {
   articles: Article[];
   filteredArticles: Article[];
   searchTerm: string;
