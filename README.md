@@ -125,31 +125,6 @@ npm start
 pnpm lint
 ```
 
----
-
-## Deployment
-
-The project is optimized for hosting on Vercel.
-
-### One-click deploy
-
-1. Push your repository to GitHub.
-2. In Vercel, import your repo and select the Next.js framework.
-3. Use default settings (no env vars required). Build command: `next build`.
-4. Deploy. Replace the Live URL at the top of this README with your Vercel URL.
-
-### Vercel CLI (optional)
-
-```bash
-npm i -g vercel
-vercel
-vercel --prod
-```
-
-No environment variables are required for this project.
-
----
-
 ## Notes & Design Choices
 
 - State is managed with React Context (`DashboardProvider`, `AuthProvider`) to keep the example lightweight.
@@ -159,7 +134,3 @@ No environment variables are required for this project.
 - Tailwind CSS v4 powers the design system; Radix primitives provide accessible interactions.
 
 ---
-
-## License
-
-No license specified. Add one if you plan to open-source.
